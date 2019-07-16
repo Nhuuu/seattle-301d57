@@ -52,7 +52,6 @@ $('button[name=clear]').on('click', function() {
 // shows difference between attr & prop
 $('input[name=check]').on('change', function() {
   let $checkbox = $(this);
-
   $('#checked-state').html('.attr("checked"): ' + $checkbox.attr('checked') + '<br>.prop( "checked" ): ' + $checkbox.prop('checked'));
 
 }).change();
